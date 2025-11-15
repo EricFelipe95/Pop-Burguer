@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Burger</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+</head>
+
+<body>
+
+        <div id="botoes-filtro">
+            <button class="botoes" id="botao-lanches">Lanches</button>
+            <button class="botoes" id="botao-bebidas">Bebidas</button>
+            <button class="botoes" id="botao-sobremesas">Sobremesas</button>
+            <button class="botoes" id="botao-hamburgueres">Hambúrgueres</button>
+            <button class="botoes" id="filter">Itens em Promoção</button>
+        </div>
+    
+    <div id="fundo">
+        <img id="img-fundo" src="./img/fundo-container.png" alt="container">
+    </div>
+
+    <div id="container">
+        
+    <div id="modal">
+        <h1>Seja bem-vindo ao Pop Burger !</h1>
+        <h2>O lugar dos melhores e mais conhecidos hambúrgueres da cultura pop.</h2>
+        <button id="foreach">Ver cardápio</button>
+    </div>
+
+    <div id="conteudo-cardapio">
+        <ul>
+        </ul> 
+
+    </div>
+        
+    </div>
+
+    <div id="carrinho-compras">
+        <p id="carrinho">Carrinho</p>
+        <p id="total">Total: R$ <span id="valor-total">0.00</span></p>
+        <img  title="Aplicar 10% de desconto"  id="map" src="./img/golden-ticket.png" alt="golden-ticket">
+        <button id="finalizar-compra">Finalizar Compra</button>
+
+    </div>
+
+
+    <script src="./cardapio.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
